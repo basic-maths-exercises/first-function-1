@@ -6,7 +6,8 @@ except:
             
     subprocess.check_call([sys.executable, "-m", "pip", "install", "AutoFeedback"])
     from AutoFeedback.funcchecks import check_func 
-           
+ 
+import numpy as np          
 import unittest
 from main import *
 
